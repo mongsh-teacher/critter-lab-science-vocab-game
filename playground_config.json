@@ -1,0 +1,86 @@
+{
+  "schema": [
+    {
+      "name": "startingHearts",
+      "type": "number",
+      "label": "Starting Quiz Hearts",
+      "default": 3,
+      "min": 1,
+      "max": 5,
+      "step": 1
+    },
+    {
+      "name": "roundQuestionsCount",
+      "type": "number",
+      "label": "Questions Per Round",
+      "default": 6,
+      "min": 4,
+      "max": 12,
+      "step": 1
+    },
+    {
+      "name": "matchPairsCount",
+      "type": "number",
+      "label": "Match Pairs Per Board",
+      "default": 6,
+      "min": 4,
+      "max": 8,
+      "step": 1
+    },
+    {
+      "name": "basePointsPerCorrect",
+      "type": "number",
+      "label": "Base Points Per Correct",
+      "default": 100,
+      "min": 50,
+      "max": 200,
+      "step": 25
+    },
+    {
+      "name": "streakBonusPoints",
+      "type": "number",
+      "label": "Streak Bonus Points",
+      "default": 25,
+      "min": 10,
+      "max": 100,
+      "step": 5
+    },
+    {
+      "name": "xpPerCorrect",
+      "type": "number",
+      "label": "Companion XP Per Correct",
+      "default": 20,
+      "min": 10,
+      "max": 50,
+      "step": 5
+    },
+    {
+      "name": "defaultMusicVolume",
+      "type": "number",
+      "label": "Default Music Volume",
+      "default": 0.3,
+      "min": 0,
+      "max": 1,
+      "step": 0.1
+    },
+    {
+      "name": "defaultSfxVolume",
+      "type": "number",
+      "label": "Default SFX Volume",
+      "default": 0.6,
+      "min": 0,
+      "max": 1,
+      "step": 0.1
+    }
+  ],
+  "values": {
+    "startingHearts": 3,
+    "roundQuestionsCount": 6,
+    "matchPairsCount": 6,
+    "basePointsPerCorrect": 100,
+    "streakBonusPoints": 25,
+    "xpPerCorrect": 20,
+    "defaultMusicVolume": 0.3,
+    "defaultSfxVolume": 0.6
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Critter Lab",
+  "language": [
+    "en",
+    "zh-TW"
+  ],
+  "hook": "Study science nurture pixel companions",
+  "game_overview": "Master bilingual science vocabulary through flashcards, matching, blanks, and word puzzles to nurture and evolve a cute pixel pocket companion.",
+  "artstyle": "pixelated",
+  "genre": "word",
+  "winning_condition": "Complete study rounds with accuracy to earn Care Treats and XP, evolving your pocket companion to Stage 4 and mastering all Level 1-3 science vocabulary.",
+  "losing_condition": "Losing all 3 hearts in a scored quiz mode ends the current study round early; letting companion Hunger, Happiness, and Energy all hit zero makes the companion sulk until fed and cared for.",
+  "player_mode": "single_player",
+  "supported_orientations": [
+    "landscape",
+    "portrait"
+  ],
+  "input_methods": [
+    "touch",
+    "mouse",
+    "keyboard",
+    "dpad"
+  ],
+  "score_options": {
+    "score_type": "points",
+    "score_order": "higher_is_better"
+  },
+  "low_end_device_support": true,
+  "mobile_playable": true,
+  "tv_playable": false,
+  "content_descriptors": [],
+  "controls": [
+    {
+      "input": "Mouse Click / Touch Tap",
+      "action": "Pet the companion, pick multiple-choice flashcard answers, match translation pairs, select fill-in-the-blank options, and tap puzzle letter tiles."
+    },
+    {
+      "input": "Keyboard (1-4, A-Z, Backspace, Enter, Space)",
+      "action": "Press 1-4 in Flashcard MC mode, type letters in Word Puzzle or Fill-in-the-Blanks modes, and confirm or advance with Enter/Space."
+    },
+    {
+      "input": "Arrow Keys / A-D / Virtual Touch Buttons",
+      "action": "Nudge the pocket companion across the sanctuary desk or navigate study cards."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Core Mechanics",
+      "content": "1. Flashcards (MC): Multiple-choice bilingual quiz showing an English science term and 4 Traditional Chinese options (selectable by click/tap or keys 1-4) with instant color+icon feedback and XP rewards. 2. Translation Matching: Connect shuffled English science terms with their Traditional Chinese translations on a grid; streaks multiply points and drop bonus snacks. 3. Fill in the Blanks: Complete science statements by selecting or typing the missing English term; hints (Traditional Chinese meaning and clue) are hidden by default with a player-controlled Show/Hide Hint toggle per question. 4. Word Puzzle: Unscramble or spell English vocabulary letter-by-letter using clickable pixel letter tiles or keyboard input, with a Hint button that reveals one letter. 5. XP Care Shop, Active Stat Decay & Species-Aligned Growth: Hunger, Happiness, and Energy steadily consume over time and across study rounds, encouraging regular study. When stats drop low, the companion stops wandering and displays a sad, low-energy slumped expression until fed, cleaned, or played with using earned Spendable XP.",
+      "summary": "Four study mini-games (with MC flashcards and toggleable Fill-in-the-Blanks hints) paired with brisk stat decay, low-stat sad animations, and an XP Care Shop."
+    },
+    {
+      "title": "Juice & Game Feel",
+      "content": "Anticipation Juice: Companion crouches slightly before hopping; letter tiles pop upward on hover. State Change Juice: Dedicated special companion animations play on the desk for each care action\u2014happy chomping with flying crumbs when fed a Star Biscuit, brisk bubble-scrubbing shimmy with gleaming sparkles when cleaned with Bubble Soap, and playful pouncing/chasing after a bouncing striped Bouncy Toy Ball when played with. When Hunger, Happiness, or Energy run low, the companion stops moving around, slumps with droopy sad eyes and a frown, and shows floating tired/hungry mood cues until cared for. Impact Juice: Completing a word or match triggers a confetti burst, subtle canvas bounce, combo chime pitch escalation, and a celebratory evolution flash.",
+      "summary": "Dedicated feed/clean/play companion animations, low-stat sad posture, particle bursts, and Web Audio chiptune cues."
+    }
+  ]
+}
